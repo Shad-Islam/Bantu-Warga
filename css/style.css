@@ -1,0 +1,837 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* navbar part css start */
+.navbar-area{
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 2.629525899887085px 10.017241477966309px 0px rgba(122, 117, 117, 0.03), 0px 21px 80px 0px rgba(122, 117, 117, 0.05);
+}
+.navbar{
+    height: 92px;
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.navbar-logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.navbar-menu{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    /* background-color: rgb(66, 138, 114); */
+}
+
+
+.navbar-menu ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar-menu ul li{
+    font-size: 16px;
+    font-weight: 500;
+    color: #656161;
+    margin-right: 70px;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.8px;
+    transition: all linear 0.5s;
+}
+
+.navbar-menu ul li:hover{
+    font-weight: 600;
+    color: #5669FF;
+}
+
+.navbar-button{
+    width: 20%;
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(17, 40, 32); */
+}
+
+.navbar-button a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 28px;
+    border-radius:20px;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    background: #5669FF;
+    text-decoration: none;
+    letter-spacing: 0.32px;
+}
+/* navbar part css end */
+
+/* banner css start */
+.banner{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    padding-left: 120px;
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+}
+
+.banner-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding: 10% 0px;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.banner-heading-text{
+   width: 438px;
+   height: 156px; 
+   position: relative;
+   /* background-color: #656161; */
+
+    /* typography */
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;   
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 1.56px;
+}
+
+.banner-heading-text h1 span{
+    color: #5669FF;
+}
+
+
+
+.banner-left img {
+    top: 18px;
+    left: 344px;
+    width: 60.985px;
+    height: 55.486px;
+    position: absolute;
+    transform: rotate(1deg);
+}
+
+.banner-left p{
+    margin:16px 0; 
+    
+    /* typography */
+    font-size: 16px;
+    font-weight: 400;
+    color: #4A4545;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+}
+
+.banner-left form{
+    width: 300px;
+    height: 45px;
+    display: flex;
+    flex-direction:row;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0.22138051688671112px 2.2138051986694336px 0px rgba(103, 95, 95, 0.01), 0px 0.532008171081543px 5.32008171081543px 0px rgba(103, 95, 95, 0.02), 0px 1.001724123954773px 10.017241477966309px 0px rgba(103, 95, 95, 0.02), 0px 1.7869046926498413px 17.869047164916992px 0px rgba(103, 95, 95, 0.02), 0px 3.3422088623046875px 33.422088623046875px 0px rgba(103, 95, 95, 0.03), 0px 8px 80px 0px rgba(103, 95, 95, 0.04);
+
+}
+
+
+.banner-left input {
+    border:none;
+    flex-grow: 2;
+    padding: 0px 2px;
+    border-radius: 10px;
+
+  /* typography */
+    font-size: 14px;
+    color: #4A4545;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.28px;
+}
+
+.banner-left input:focus {
+    outline: none;
+}
+
+.banner-left form button {
+   
+    margin: 5px;
+    color:#FFF;
+    border: none;
+    font-size: 18px;
+    padding: 0 20px;
+    border-radius: 10px;
+    background: #5669FF;
+}
+
+/* banner right */
+.banner-right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* background-color: rgb(48, 1, 1); */
+}
+.welcome{
+   
+    left: -30px;
+    width: 450px;
+    position: absolute;
+    
+  
+}
+
+.vitamin{
+    right: 0px;
+    width: 450px;
+    position: absolute;
+
+}
+/* banner css end */
+
+
+/* about css start */
+.about-container{
+    width: 1200px;
+    margin: 0 auto;
+    /* padding-bottom: 200px; */
+    /* background-color: #464f8f; */
+}
+
+.about-text{
+    width: 100%;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.about-text h1{
+    color: #000;
+    font-size: 52px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 2.6px;
+}
+
+.about-text h1 span{
+    color: #5669FF;
+}
+
+
+.about-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4A4545;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+}
+
+.about-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+}
+
+.about-row-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-row-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    gap: 20px;
+    width: 389px;
+    height: 244px;
+    display: flex;
+    margin-top: 30px;
+    background: #FFF;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 1.3965214490890503px 12.96769905090332px 0px rgba(118, 111, 111, 0.04), 0px 4.690624713897705px 43.55580139160156px 0px rgba(118, 111, 111, 0.05), 0px 21px 195px 0px rgba(118, 111, 111, 0.09);
+}
+
+.about-row-one .card img{
+    height: 51px;
+    width: 32.867px;
+}
+
+.card h3{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    font-family: Poppins;
+}
+
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4A4545;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+}
+
+.about-button{
+    width: 100%;
+    display: flex;
+    margin: 80px 0 0;
+    justify-content: center;
+}
+.about-button a{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: #5669FF;
+    text-decoration: none;
+
+    /* typography */
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+}
+/* about css end */
+
+/* app part css start */
+.app-section{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    margin: 0 auto 100px;
+}
+
+.app-section-left{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 600px;
+}
+
+.app-left-image{
+    left: 15%;
+    bottom:0px;
+    z-index: 10;
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    border-radius: 30px;
+    background: #C4C4C4;
+}
+
+.app-circle{
+    left: 15%;
+    width: 70%;
+    z-index: 5;
+    height: 70%;
+    bottom: -25px;
+    position: absolute;
+    border-radius: 50%;
+    background-color:#5669FF;
+}
+
+.app-section-right{
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #5669FF;
+    font-style: normal;
+    padding-left: 20px;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+    border-left: 2px solid #5669FF;
+}
+
+.app-heading{
+    color: #000;
+    font-size: 52px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 2.6px;
+}
+
+.app-heading span{
+    font-size: 52px;
+    font-weight: 600;
+    color: #5669FF;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 2.6px;
+}
+
+.app-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4A4545;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+}
+
+/* app part css end */
+
+/* imformation css start  */
+.information-section{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    margin: 0px auto ;
+    /* background-color: antiquewhite; */
+}
+
+.information-text{
+    width: 50%;
+    height: 100%;
+}
+
+
+
+.information-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #5669FF;
+    font-style: normal;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+    border-left: 2px solid #5669FF;
+}
+
+.information-heading{
+    color: #000;
+    font-size: 52px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 2.6px;
+}
+
+.information-heading span{
+    color: #5669FF;
+}
+
+.information-list-item{
+    gap:20px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item-icon img{
+    width: 25px;
+    height: 25px;    
+}
+
+.item-text h5{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-family: Poppins;
+}
+
+.item-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4A4545;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+}
+
+.list-button{
+    margin-top: 65px;
+}
+
+.information-text a{
+    margin-left: 50px;
+    padding: 9px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #5669FF;
+
+ /* typography */ 
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+}
+
+/* information images */
+
+.information-images{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    /* background-color: rgb(17, 50, 50); */
+}
+
+
+
+#berita{
+    top:20px;
+    z-index: 10;
+    width: 520px;
+    height: 656px;
+    position: absolute;
+    background-size:contain;
+}
+
+#data{
+    right:0px;
+    top: 100px;
+    width: 300px;
+    height: 460px;
+    position: absolute;
+    border-radius: 30px;
+}
+/* imformation css end  */
+
+/* contact css start  */
+.contact-card{
+    width: 950px;
+    height: 638px;
+    margin: 100px auto;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 2px 10px 28px 0px rgba(75, 0, 129, 0.12);   
+}
+
+.contact-title {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #5669FF;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 1.5px;
+}
+
+.contact-box{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    box-sizing: border-box;
+    /* background-color: rgb(145, 105, 53); */
+}
+
+.contact-message{
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(175, 175, 222);     */
+}
+
+.contact-message h5{
+    font-size: 20px;
+    color:#0F001A;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    font-family: Poppins;
+}
+
+.contact-form-row{
+    position: relative;
+}
+
+.contact-form-row label{
+    top: -13px;
+    left: 20px;
+    position: absolute;
+    background-color: #FFF;
+
+    /* typography */
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    color: var(--text-color, #0F001A);
+}
+
+.contact-message form input{
+    width: 422px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    border: 1.2px solid #B4BEC8;
+
+    /* typography */
+    font-size: 16px;
+    font-weight: 400;
+    color: #878787;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+}
+
+.contact-message form input:focus{
+    outline: none;
+}
+
+.contact-message form #message{
+    height: 137px;
+    position: relative;    
+}
+
+.contact-message form #message::placeholder{
+    top: 20px;
+    position: absolute;
+}
+
+.message-send{
+    margin-top: 75px;
+}
+
+.message-send a{
+    padding: 14px 192px;
+    border-radius: 10px;
+    background: #5669FF;
+    text-decoration: none;
+    
+/* typography */
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    font-family: Objective;
+}
+
+.contact-location{
+    width: 50%;
+    height: 100%; 
+}
+
+.contact-location ul{
+    margin: 50px 0;
+}
+
+.contact-location ul li {
+    display: flex;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.contact-location ul li img{
+    width: 20px;
+    height: 20px;
+    margin:0 20px;
+}
+
+.contact-location ul li svg{
+    margin:0 20px;
+}
+
+.contact-location ul li p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F001A;
+    line-height: 22px; 
+    font-style: normal;
+    font-family: Poppins;
+    letter-spacing: 0.32px;
+}
+
+/* contact css end */
+
+/* footer part css start */
+
+.footer__area{
+    width: 100%;
+    background-color: #5669FF;
+}
+
+.footer__container{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    /* background-color: #0e133f; */
+}
+
+.footer__container__top{
+    height: 90%;
+    display: flex;
+}
+
+.footer__container__top__left{
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    justify-content: center;
+}
+
+.footer__container__top__left img{
+    width: 136px;
+    height: 83px;
+}
+
+.footer__container__top__left p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding-right: 120px;
+    font-family: Poppins;
+}
+
+
+.footer__container__top__right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.footer__container__top__right ul{
+    list-style: none;
+    padding-top: 94px;
+    margin-left: 45px;
+/* typography */
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.1px;
+}
+
+.footer__container__top__right ul li{
+    margin-bottom: 15px;
+}
+
+.footer__container__bottom{
+    height: 10%;
+    display: flex;
+    /* background-color: #656161; */
+}
+
+.footer__container__bottom__left{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.footer__container__bottom__left img{
+    width: 169px;
+    height: 29px;
+    
+}
+
+.footer__container__bottom__right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    /* typography */
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+    letter-spacing: 0.11px;
+}
+
+/* footer part css end */
